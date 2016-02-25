@@ -1,7 +1,11 @@
 .col-mobile{
-  width: 375px;
+  width: 750px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.page-2{
+  /*display: none;*/
 }
 
 .header-page-2{
@@ -22,8 +26,9 @@
 input{
   font-size: 16px;
   line-height: 22px;
-  width: 350px;
-  margin-top: 3px;
+  width: 700px;
+  margin-top: 7px;
+  margin-bottom: 10px;
 }
 
 .page2{
@@ -48,10 +53,12 @@ input{
 .ping,
 .clock,
 .calendar{
+  float: right;
+  position: relative;
   display: inline-block;
-  margin-left: 93%;
-  margin-top: -23px;
-  margin-bottom: 23px;
+  margin-right: 15px;;
+  margin-top: -33px;
+  /*margin-bottom: 30px;*/
 }
 
 .save-appointment{
@@ -66,4 +73,14 @@ input{
   text-align: center;
   border: 1px solid #ccc;
   border-radius: 3px;
+}
+
+.save-appointment:hover{
+  background: teal;
+  background-image: linear-gradient(rgb(85, 220, 184), teal);
+}
+
+.back-arrow:hover{
+  color: white;
+  background: #666;
 }
