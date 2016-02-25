@@ -6,15 +6,18 @@ header {
     border-bottom: 2px solid #EEE;
     width: 700px;
 }
-.address-page-2 {
-    border-bottom: 2px solid #EEE;
-    width: 700px;
-}
-
 .page-title {
     font-size: 2em;
     font-family: Arial, sans-serif;
     color:rgb(115, 115, 115);
+    margin-left: 7em;
+}
+
+.address-page-2 {
+    border-bottom: 2px solid #EEE;
+    width: 700px;
+    padding-left:2%;
+    padding-right:2%
 }
 
 .title-page-2,
@@ -22,9 +25,13 @@ header {
     border-bottom: 2px solid #EEE;
     width:700px;
     margin-bottom: 1.5em;
+    padding-left:2%;
+    padding-right:2%
 }
 .time-page-2 {
     width: 700px;
+    padding-left:2%;
+    padding-right:2%;
 }
 
 label {
@@ -52,13 +59,7 @@ input {
 .save-button {
     font-size: 24px;
 }
-button {
-    background: rgb(85, 220, 184);
-    width: 700px;
-    margin-top: 30px;
-    position:fixed;
-    bottom:5px;
-}
+
 
 .octicon-location,
 .octicon-calendar,
@@ -72,5 +73,36 @@ button {
 
 .octicon-chevron-left {
     padding: 5px;
+}
+
+.save-button {
+    background: rgb(85, 220, 184);
+    width: 700px;
+    margin-top: 30px;
+    position:fixed;
+    bottom:5px;
+    color: white;
+    font-size: 1.5em;
+    height: 50px;
+}
+
+.button-container {
+    width:750px;
+    position: fixed;
+    bottom: 5px;
+}
+.delete-button {
+    width:49%;
+    background: red;
+    height: 50px;
+    color: white;
+    font-size: 1.5em
+}
+.save-edit-button {
+    width: 49%;
+    background: rgb(85, 220, 184);
+    height: 50px;
+    color: white;
+    font-size: 1.5em;
 
 }

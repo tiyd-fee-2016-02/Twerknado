@@ -4,11 +4,50 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/octicons/octicons.css">
-    <title>Mobile Appointment App</title>
+    <title>Appointment App</title>
   </head>
 
   <body>
+      <div class="appt-container">
+          <div class="column-mobile">
+              <header>
+                  <span class="back-arrow mega-octicon octicon-chevron-left"></span>
+                  <span class="page-title">Edit Appointment</span>
+              </header>
 
+    <div class="title-page-2">
+        <label>Title</label>
+            <input class="input-title" placeholder="Meet with Larry">
+    </div>
+
+    <div class="address-page-2">
+        <label>Street</label>
+            <input class="input-address" placeholder="111 Lucky Drive">
+            <span class="street-icon octicon octicon-location"></span>
+        <label>City, State</label>
+            <input class="input-city" placeholder="Durham, NC">
+    </div>
+
+    <div class="date-page-2">
+    <label>Date</label>
+        <input class="input-date" placeholder="09/01/2015">
+        <span class="date-icon octicon octicon-calendar"></span>
+    </div>
+
+    <div class="time-page-2">
+    <label>Time</label>
+        <input class="input-time" placeholder="15:15:00">
+        <span class="date-icon octicon octicon-clock"></span>
+    </div>
+
+        <div class="button-container">
+            <button class="delete-button">Delete
+            <button class="save-edit-button">Save            
+        </div>
+
+
+          </div>
+      </div>
 
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.5.1/lodash.js"></script>
