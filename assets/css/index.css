@@ -2,6 +2,15 @@ body {
     font-family: Arial, sans-serif;
 }
 
+header {
+    border-bottom: 2px solid #EEE;
+    width: 700px;
+}
+.address-page-2 {
+    border-bottom: 2px solid #EEE;
+    width: 700px;
+}
+
 .page-title {
     font-size: 2em;
     font-family: Arial, sans-serif;
@@ -11,28 +20,39 @@ body {
 label {
     display: block;
     color:rgb(115, 115, 115);
-    font-size: 19px;
+    font-size: 18px;
+    padding: .2em;
 }
 
 input {
-    width:350px;
+    width:700px;
     font-size:16px;
-    line-heigh:22px;
-    width: 350px;
-    margin-top: 3px;
+    line-height:32px;
+    width: 700px;
+    margin-top: 6px;
+    margin-bottom: 12px;
 }
 
 .column-mobile {
-    width: 375px;
+    width: 750px;
     margin-left: auto;
     margin-right: auto;
 }
-
+.save-button {
+    font-size: 24px;
+}
 button {
     background: rgb(85, 220, 184);
-    width: 350px;
-    margin-top: 15px;
+    width: 700px;
+    margin-top: 30px;
+    position:fixed;
 }
 .octicon-location {
-    margin-left: -20px;
+    margin-left: 97%;
+    margin-top: -40px;
+
+}
+.octicon-chevron-left {
+    padding: 5px;
+
 }
