@@ -4,8 +4,33 @@ body {
 
 header {
     border-bottom: 2px solid #EEE;
-    width: 700px;
+    width: 750px;
 }
+.header-page-1 {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.search-bar {
+    width: 710px;
+    margin-left: 25px;
+    margin-right: auto;
+}
+
+.home-title {
+    font-size: 32px;
+    font-family: Helvetica;
+    color: rgb(85, 220, 184);
+}
+
+.home-container {
+    width:750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .page-title {
     font-size: 2em;
     font-family: Arial, sans-serif;
@@ -60,6 +85,26 @@ input {
     font-size: 24px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.octicon-plus {
+    float:right;
+    margin-right: 3%;
+}
+
+.octicon-plus:hover,
+.octicon-chevron-left:hover {
+    color: rgb(85, 220, 184);
+}
+
+
+.octicon-search {
+    margin-left: -30px;
+}
+
 
 .octicon-location,
 .octicon-calendar,
@@ -105,4 +150,40 @@ input {
     color: white;
     font-size: 1.5em;
 
+}
+
+.mockup-appointment-holder{
+    width: 700px;
+}
+.left-col{
+    font-size: 22px;
+    text-align: center;
+    display:inline-block;
+    width: 20%;
+    background: rgb(85, 220, 184);
+    height: 90px;
+    margin-left: 5%;
+}
+
+.right-col{
+    font-size: 22px;
+    float: right;
+    width: 75%;
+    background: #eee;
+    height: 90px;
+    margin-left: -5px;
+}
+
+.appt-time,
+.appt-title{
+    margin-top: 15px;
+}
+
+.appt-title{
+    margin-bottom: 10px;
+}
+
+.city-state{
+    color: #aaa;
+    font-size: 19px;
 }
