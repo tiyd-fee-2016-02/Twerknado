@@ -17,11 +17,22 @@ header {
     color:rgb(115, 115, 115);
 }
 
+.title-page-2,
+.date-page-2 {
+    border-bottom: 2px solid #EEE;
+    width:700px;
+    margin-bottom: 1.5em;
+}
+.time-page-2 {
+    width: 700px;
+}
+
 label {
     display: block;
     color:rgb(115, 115, 115);
     font-size: 18px;
-    padding: .2em;
+    margin-top: .5em;
+    margin-bottom: .5em;
 }
 
 input {
@@ -30,7 +41,7 @@ input {
     line-height:32px;
     width: 700px;
     margin-top: 6px;
-    margin-bottom: 12px;
+    margin-bottom: 1em;
 }
 
 .column-mobile {
@@ -46,12 +57,19 @@ button {
     width: 700px;
     margin-top: 30px;
     position:fixed;
+    bottom:5px;
 }
-.octicon-location {
-    margin-left: 97%;
-    margin-top: -40px;
 
+.octicon-location,
+.octicon-calendar,
+.octicon-clock  {
+    margin-right: 10px;
+    margin-top: -40px;
+    float:right;
+    position: relative;
 }
+
+
 .octicon-chevron-left {
     padding: 5px;
 
