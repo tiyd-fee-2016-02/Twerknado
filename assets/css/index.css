@@ -11,6 +11,7 @@ header {
     border-bottom: 2px solid #EEE;
     width: 750px;
     height: 55px;
+    padding: 1em;
 }
 
 .header-page-1 {
@@ -42,12 +43,13 @@ header {
 }
 
 .page-title {
-    font-size: 3em;
+    font-size: 4em;
     font-family: Arial, sans-serif;
     color:rgb(115, 115, 115);
-    margin-left: 3em;
-    padding-top: 25px;
-    margin-top: 25px;
+    margin-left: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 2em;
 }
 
 .address-page-2 {
@@ -75,15 +77,14 @@ header {
 label {
     display: block;
     color:rgb(115, 115, 115);
-    font-size: 1.5em;
+    font-size: 3em;
     margin-top: .2em;
     margin-bottom: .1em;
 }
 
 input {
     width:700px;
-    font-size:1.5em;
-    line-height:32px;
+    font-size:3.5em;
     width: 700px;
     margin-top: 6px;
     margin-bottom: 1em;
@@ -107,7 +108,7 @@ a {
 
 .fa-plus {
     float:right;
-    margin-right:.8em;
+    margin-right: 1.2em;
     margin-top: .5em;
 }
 
@@ -128,15 +129,15 @@ a {
 .fa-map-marker,
 .fa-calendar,
 .fa-clock-o  {
-    margin-right: 10px;
-    margin-top: -65px;;
+    margin-right: .8em;
+    margin-top: -3em;
     float:right;
     position: relative;
 }
 
 
-.octicon-chevron-left {
-    padding: 5px;
+.fa-chevron-left {
+    padding-bottom: 1.5em;
 }
 
 .save-container {
@@ -152,7 +153,7 @@ a {
     bottom:5px;
     color: white;
     font-size: 1.5em;
-    height: 50px;
+    height: 5em;
 }
 
 .button-container {
@@ -163,14 +164,14 @@ a {
 .delete-button {
     width:49%;
     background: red;
-    height: 50px;
+    height: 5em;
     color: white;
     font-size: 1.5em
 }
 .save-edit-button {
     width: 49%;
     background: rgb(85, 220, 184);
-    height: 50px;
+    height: 5em;
     color: white;
     font-size: 1.5em;
 
