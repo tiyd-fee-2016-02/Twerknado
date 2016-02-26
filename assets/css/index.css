@@ -1,10 +1,14 @@
 body {
     font-family: Arial, sans-serif;
 }
+.appt-container {
+    margin: .5em;
+}
 
 header {
     border-bottom: 2px solid #EEE;
     width: 750px;
+    height: 55px;
 }
 .header-page-1 {
     padding-bottom: 1em;
@@ -36,6 +40,8 @@ header {
     font-family: Arial, sans-serif;
     color:rgb(115, 115, 115);
     margin-left: 7em;
+    padding-top: 25px;
+    margin-top: 25px;
 }
 
 .address-page-2 {
@@ -93,6 +99,7 @@ a {
 .octicon-plus {
     float:right;
     margin-right: 3%;
+    width: 32px;
 }
 
 .octicon-plus:hover,
@@ -120,6 +127,11 @@ a {
     padding: 5px;
 }
 
+.save-container {
+    width: 725px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .save-button {
     background: rgb(85, 220, 184);
     width: 700px;
