@@ -1,5 +1,7 @@
 body {
     font-family: Arial, sans-serif;
+    background: rgb(250,250,250);
+
 }
 .appt-container {
     margin: .5em;
@@ -10,21 +12,25 @@ header {
     width: 750px;
     height: 55px;
 }
+
 .header-page-1 {
     padding-bottom: 1em;
     padding-top: 1em;
     text-align: center;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+    padding-bottom: 3em;
 }
 
 .search-bar {
-    width: 710px;
+    width: 700px;
     margin-left: 25px;
     margin-right: auto;
+    font-size: 3em;
+
 }
 
 .home-title {
-    font-size: 32px;
+    font-size: 5em;
     font-family: Helvetica;
     color: rgb(85, 220, 184);
 }
@@ -36,10 +42,10 @@ header {
 }
 
 .page-title {
-    font-size: 2em;
+    font-size: 3em;
     font-family: Arial, sans-serif;
     color:rgb(115, 115, 115);
-    margin-left: 7em;
+    margin-left: 3em;
     padding-top: 25px;
     margin-top: 25px;
 }
@@ -55,7 +61,8 @@ header {
 .date-page-2 {
     border-bottom: 2px solid #EEE;
     width:700px;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
     padding-left:2%;
     padding-right:2%
 }
@@ -68,18 +75,20 @@ header {
 label {
     display: block;
     color:rgb(115, 115, 115);
-    font-size: 18px;
-    margin-top: .5em;
-    margin-bottom: .5em;
+    font-size: 1.5em;
+    margin-top: .2em;
+    margin-bottom: .1em;
 }
 
 input {
     width:700px;
-    font-size:16px;
+    font-size:1.5em;
     line-height:32px;
     width: 700px;
     margin-top: 6px;
     margin-bottom: 1em;
+    height: 2em;
+
 }
 
 .column-mobile {
@@ -96,28 +105,32 @@ a {
     color: black;
 }
 
-.octicon-plus {
+.fa-plus {
     float:right;
-    margin-right: 3%;
-    width: 32px;
+    margin-right:.8em;
+    margin-top: .5em;
 }
 
-.octicon-plus:hover,
-.octicon-chevron-left:hover {
+.fa-plus:hover,
+.fa-chevron-left:hover {
     color: rgb(85, 220, 184);
 }
 
 
-.octicon-search {
-    margin-left: -30px;
+.fa-search {
+    float: right;
+    margin-top: -3em;
+    margin-right: 1.25em;
+    position: relative;
+
 }
 
 
-.octicon-location,
-.octicon-calendar,
-.octicon-clock  {
+.fa-map-marker,
+.fa-calendar,
+.fa-clock-o  {
     margin-right: 10px;
-    margin-top: -40px;
+    margin-top: -65px;;
     float:right;
     position: relative;
 }
@@ -166,23 +179,24 @@ a {
 
 .mockup-appointment-holder{
     width: 700px;
+
 }
 .left-col{
-    font-size: 22px;
+    font-size: 3em;
     text-align: center;
     display:inline-block;
     width: 20%;
     background: rgb(85, 220, 184);
-    height: 90px;
+    height: 3em;
     margin-left: 5%;
 }
 
 .right-col{
-    font-size: 22px;
+    font-size: 3em;
     float: right;
     width: 75%;
     background: #eee;
-    height: 90px;
+    height: 3em;;
     margin-left: -5px;
 }
 
@@ -194,8 +208,15 @@ a {
 .appt-title{
     margin-bottom: 10px;
 }
+.appt-time {
+    color: white;
+}
 
 .city-state{
     color: #aaa;
-    font-size: 19px;
+    font-size: .7em;
+}
+.fa-sun-o {
+    color: yellow;
+    padding-top: .2em;
 }
