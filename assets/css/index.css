@@ -224,3 +224,8 @@ a {
 .mockup-appointment-holder{
   margin-top: 2em;
 }
+
+.invisStreet,
+.invisDate{
+  display:none;
+}
