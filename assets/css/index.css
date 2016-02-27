@@ -229,3 +229,48 @@ a {
 .invisDate{
   display:none;
 }
+
+.modal{
+    font-family: Arial;
+    background:white;
+    font-size: 3em;
+    text-align: center;
+    position: absolute;
+    border: 2px solid black;
+    z-index: 2;
+    top: 2em;
+    right:3em;
+    bottom: 3em;
+    left: 3em;
+}
+
+.modal-button {
+    padding: 1em;
+    width: 3em;
+    font-size: 1em;
+    text-align: center;
+    padding-right: 2.5em;
+    margin: .5em;
+}
+.modal-prompt {
+    color: #555;
+    font-size: 1em;
+    padding: 1em;
+}
+.modal-container {
+    position: fixed;
+    background: rgba(0, 0, 0, .5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index:1;
+    text-align: center;
+}
+.modal-save {
+    background: rgb(85, 220, 184);
+}
+
+.modal-delete {
+    background: red;
+}
