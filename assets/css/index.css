@@ -266,6 +266,7 @@ a {
     right: 0;
     z-index:1;
     text-align: center;
+    display:none;
 }
 .modal-save {
     background: rgb(85, 220, 184);
@@ -273,4 +274,8 @@ a {
 
 .modal-delete {
     background: red;
+}
+
+.showing{
+  display:block;
 }

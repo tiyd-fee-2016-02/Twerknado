@@ -23,8 +23,28 @@ $(function() {
     $('.appointments-holder').append("<a href='indexEditAppointment.html'><div class='mockup-appointment-holder'><div class='left-col'><div class='appt-time'>" + storageValues.time + "</div><i class='fa fa-sun-o'></i></div><div class='right-col'><div class='appt-title'>" + "&nbsp;" + storageValues.title + "</div><span class='city-state'>" + "&nbsp;" + storageValues.city + "</span></div><div class = 'invisStreet'>" + storageValues.street + "</div><div class = 'invisDate'>" + storageValues.date + "</div></div> </a>")
 
     $('.delete-button').on('click', function() {
-        localStorage.clear();
+      $('.modal-container').addClass('showing');
     });
+
+    $('.save-edit-button').on('click', function() {
+      storage.title = $('.edit-input-title').val();
+      storage.street = $('.edit-input-address').val();
+      storage.city = $('.edit-input-city').val();
+      storage.date = $('.edit-input-date').val();
+      storage.time = $('.edit-input-time').val();
+
+      localStorage.setItem('storage', JSON.stringify(storage));
+    });
+
+
+    $('.modal-yes').on('click', function() {
+      localStorage.clear();
+    });
+
+    $('.modal-no').on('click', function() {
+      return
+    });
+
 
 
     $('.mockup-appointment-holder').on("click", function() {
