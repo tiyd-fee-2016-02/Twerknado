@@ -140,6 +140,7 @@ a {
     padding-bottom: 1.5em;
 }
 
+
 .save-container {
     width: 725px;
     margin-left: auto;
@@ -278,4 +279,49 @@ a {
 
 .showing{
   display:block;
+}
+
+.appt-details {
+    text-align: center;
+    margin: 1em;
+    padding-top: 2em;
+}
+
+.edit-container {
+    width: 725px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.edit-button {
+    background: rgb(85, 220, 184);
+    width: 700px;
+    margin-top: 30px;
+    position:fixed;
+    bottom:5px;
+    color: white;
+    font-size: 1.5em;
+    height: 5em;
+}
+
+.maps-image {
+    width: 400px;
+    margin: 2em;
+}
+
+.fa-location {
+    color: rgb(85, 220, 184);
+    padding-top: 2em;
+}
+
+.details-time-appt {
+    color: rgb(85, 220, 184);
+}
+
+.details-location {
+    text-size: 5em;
+    font-style: italic;
+    color: #555;
+    padding: 2em;
 }
