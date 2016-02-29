@@ -232,17 +232,17 @@ a {
 }
 
 .modal{
-    font-family: Arial;
-    background:white;
-    font-size: 3em;
-    text-align: center;
-    position: absolute;
-    border: 2px solid black;
-    z-index: 2;
-    top: 2em;
-    right:3em;
-    bottom: 3em;
-    left: 3em;
+  font-family: Arial;
+  background:white;
+  font-size: 3em;
+  text-align: center;
+  position: absolute;
+  border: 2px solid black;
+  z-index: 2;
+  top: 2em;
+  right:3em;
+  bottom: 3em;
+  left: 3em;
 }
 
 .modal-button {
@@ -259,22 +259,22 @@ a {
     padding: 1em;
 }
 .modal-container {
-    position: fixed;
-    background: rgba(0, 0, 0, .5);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index:1;
-    text-align: center;
-    display:none;
+  position: fixed;
+  background: rgba(0, 0, 0, .5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index:1;
+  text-align: center;
+  display:none;
 }
 .modal-save {
-    background: rgb(85, 220, 184);
+  background: rgb(85, 220, 184);
 }
 
 .modal-delete {
-    background: red;
+  background: red;
 }
 
 .showing{
@@ -282,49 +282,63 @@ a {
 }
 
 .appt-details {
-        margin: 1em;
-        padding-top: 2em;
-        width: 500px;
-        margin-left: auto;
-        margin-right: auto;
+  margin: 1em;
+  padding-top: 2em;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .appt-container {
-    width: 750px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .edit-button {
-    background: rgb(85, 220, 184);
-    width: 700px;
-    position: fixed;
-    bottom:5px;
-    color: white;
-    font-size: 1.5em;
-    height: 4em;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  background: rgb(85, 220, 184);
+  width: 750px;
+  position: fixed;
+  bottom:5px;
+  color: white;
+  font-size: 1.5em;
+  height: 4em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .maps-image {
-    width: 400px;
-    margin: 2em;
+  width: 400px;
+  margin: 2em;
 }
 
 .fa-location {
-    color: rgb(85, 220, 184);
-    padding-top: 2em;
+  color: rgb(85, 220, 184);
+  padding-top: 2em;
 }
 
-.details-time-appt {
-    color: rgb(85, 220, 184);
+.appt-stats-time {
+  color: rgb(85, 220, 184);
 }
 
 .details-location {
-    text-size: 5em;
-    font-style: italic;
-    color: #555;
-    padding: 2em;
+  font-size: 3em;
+  font-style: italic;
+  font-weight: lighter;
+  color: #999;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.details-time{
+  font-size: 3.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.spec{
+  position: absolute;
+  margin-left: 9em;
+  margin-top: -4em;
 }

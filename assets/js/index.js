@@ -19,8 +19,11 @@ $(function() {
         localStorage.setItem('storage', JSON.stringify(storage));
     });
 
+    $('.appt-details').append("<div class='details-time'>Today at <span class ='appt-stats-time'>" + editStorageValues.time + "</span></div><div class='details-location'>" + editStorageValues.city + "</div> <span> <i class='fa spec fa-location fa-map-marker fa-3x'></i></span><img class='maps-image' src='assets/images/mapsss.png'>")
 
-    $('.appointments-holder').append("<a href='indexEditAppointment.html'><div class='mockup-appointment-holder'><div class='left-col'><div class='appt-time'>" + storageValues.time + "</div><i class='fa fa-sun-o'></i></div><div class='right-col'><div class='appt-title'>" + "&nbsp;" + storageValues.title + "</div><span class='city-state'>" + "&nbsp;" + storageValues.city + "</span></div><div class = 'invisStreet'>" + storageValues.street + "</div><div class = 'invisDate'>" + storageValues.date + "</div></div> </a>")
+
+
+    $('.appointments-holder').append("<a href='indexAppointmentStats.html'><div class='mockup-appointment-holder'><div class='left-col'><div class='appt-time'>" + storageValues.time + "</div><i class='fa fa-sun-o'></i></div><div class='right-col'><div class='appt-title'>" + "&nbsp;" + storageValues.title + "</div><span class='city-state'>" + "&nbsp;" + storageValues.city + "</span></div><div class = 'invisStreet'>" + storageValues.street + "</div><div class = 'invisDate'>" + storageValues.date + "</div></div> </a>")
 
     $('.delete-button').on('click', function() {
       $('.modal-container').addClass('showing');
