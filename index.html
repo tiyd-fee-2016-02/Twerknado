@@ -1,31 +1,34 @@
-    <div class="home-container">
-      <header class="header-page-1">
-        <span class="home-title"> My Tee Times </span>
-        <a href="indexNewAppointment.html"><i class="fa fa-plus fa-3x"></i></a>
-      </header>
+<!DOCTYPE>
 
-      <div class="search-appointments">
-        <input class="search-bar">
-        <i class="fa fa-search fa-3x"></i>
-      </div>
+<html ng-app="App">
 
-      <div class = "appointments-holder">
-        <!-- <a href="indexEditAppointment.html">
-          <div class="mockup-appointment-holder">
+  <head>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/octicons/octicons.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.5.1/lodash.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/app.js"></script>
+    <title>My Tee Time App</title>
+  </head>
 
-            <div class="left-col">
-              <div class="appt-time">12:15</div>
-              <i class="fa fa-sun-o"></i>
-            </div>
+  <body>
 
-            <div class="right-col">
-              <div class="appt-title">&nbsp;Meet With Ash</div>
-              <span class="city-state">&nbsp;@ Norfolk, VA</span>
-            </div>
+    <header class="header-page-1">
+      <span class="home-title"> My Tee Times </span>
+      <a href="#/new"><i class="fa fa-plus fa-3x"></i></a>
+    </header>
 
-            <div class = 'invisStreet'>555 lake way</div>
-            <div class = 'invisDate'>05/15/15</div>
+    <div>
+      <ng-view></ng-view>
+    </div>
 
-          </div>
-        </a> -->
-      </div>
+
+
+  </body>
+
+</html>

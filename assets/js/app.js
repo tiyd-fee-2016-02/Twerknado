@@ -1,26 +1,26 @@
-var MyTeeTimeApp = angular.module('MyTeeTimeApp', ['ng-Route']);
+var App = angular.module('App', ['ng-Route']);
 
 
-MyTeeTimeApp.config(function($routeProvider) {
+App.config(function($routeProvider) {
   $routeProvider
   .when('/', {
-    templateUrl : 'index.html',
+    templateUrl : 'home.html'
   })
 
   .when('/index', {
-    templateUrl : 'index.html',
+    templateUrl : 'home.html'
   })
 
   .when('/new', {
-    templateUrl : 'indexNewAppointment.html',
+    templateUrl : 'indexNewAppointment.html'
   })
 
   .when('/edit', {
-    templateUrl : 'indexEditAppointment.html',
+    templateUrl : 'indexEditAppointment.html'
   })
 
   .when('/stats', {
-    templateUrl : 'indexAppointmentStats.html',
-  })
+    templateUrl : 'indexAppointmentStats.html'
+  });
 
 });
